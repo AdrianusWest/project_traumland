@@ -1,4 +1,5 @@
 .venv
 dist
 .idea
-
+project_traumland/journal/__pycache__/
+project_traumland/traumland/__pycache__/
