@@ -12,6 +12,13 @@
       <div class="container-fluid">
          <div class="row">
             <div class="col-sm-12 ">
+                  {% if user.is_authenticated %}
+                     <p>Hi, {{ user.username }}!</p>
+                     <p><a href="{% url 'logout' %}">Log out</a></p>
+                  {% else %}
+                     <p>You are not logged in.</p>
+                     <a href="{% url 'login' %}">Log In</a>
+                  {% endif %}
                {% block content %}
                <!-- Journal list page and other pages will fill this space -->
                {% endblock %}
