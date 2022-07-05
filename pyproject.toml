@@ -6,7 +6,7 @@ authors = ["Adrianus West <adrianus_west@protonmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.10"
-Django = "^4.0.4"
+Django = "^4.0.6"
 flake8 = "^4.0.1"
 
 [tool.poetry.dev-dependencies]
