@@ -1,3 +1,5 @@
-# project_traumland
+## Информация о project_traumland
 
-В память о канувшем в Лету "Traumland".
+Мой первый экспериментальный проект на Django.
+
+P.S.:В память о канувшем в Лету "Traumland".
